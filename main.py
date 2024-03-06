@@ -47,7 +47,7 @@ class Face_Recog:
         self.photoimage4=ImageTk.PhotoImage(img4)
         b_4=Button(self.root,image=self.photoimage4,command=self.student_details,cursor='hand2')
         b_4.place(x=200,y=200,width=220,height=220)
-        bb_4=Button(self.root,text="Student Details",command=self.student_details,cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_4=Button(self.root,text="Student Registration",command=self.student_details,cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_4.place(x=200,y=400,width=220,height=40)
 
         # Face Detector
@@ -57,7 +57,7 @@ class Face_Recog:
         self.photoimage5=ImageTk.PhotoImage(img5)
         b_5=Button(self.root,image=self.photoimage5,command=self.face,cursor='hand2')
         b_5.place(x=500,y=200,width=220,height=220)
-        bb_5=Button(self.root,text="Face Detector",command=self.face,cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_5=Button(self.root,text="Course Details",command=self.face,cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_5.place(x=500,y=400,width=220,height=40)
 
         # Attendance
@@ -87,7 +87,7 @@ class Face_Recog:
         self.photoimage8=ImageTk.PhotoImage(img8)
         b_8=Button(self.root,image=self.photoimage8,cursor='hand2',command=self.train_dataset)
         b_8.place(x=200,y=500,width=220,height=220)
-        bb_8=Button(self.root,text="Train Data",cursor="hand2",command=self.train_dataset,font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_8=Button(self.root,text="Grades",cursor="hand2",command=self.train_dataset,font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_8.place(x=200,y=700,width=220,height=40)
 
         #Photos
@@ -97,7 +97,7 @@ class Face_Recog:
         self.photoimage9=ImageTk.PhotoImage(img9)
         b_9=Button(self.root,image=self.photoimage9,cursor='hand2',command=self.open_img)
         b_9.place(x=500,y=500,width=220,height=220)
-        bb_9=Button(self.root,text="Photos",cursor="hand2",command=self.open_img,font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_9=Button(self.root,text="Notice Board",cursor="hand2",command=self.open_img,font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_9.place(x=500,y=700,width=220,height=40)
 
         #Developer
@@ -107,7 +107,7 @@ class Face_Recog:
         self.photoimage10=ImageTk.PhotoImage(img10)
         b_10=Button(self.root,image=self.photoimage10,cursor='hand2')
         b_10.place(x=800,y=500,width=220,height=220)
-        bb_10=Button(self.root,text="Train Data",cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_10=Button(self.root,text="Teacher Details",cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_10.place(x=800,y=700,width=220,height=40)
 
         #Exit
@@ -117,7 +117,7 @@ class Face_Recog:
         self.photoimage11=ImageTk.PhotoImage(img11)
         b_11=Button(self.root,image=self.photoimage11,cursor='hand2')
         b_11.place(x=1100,y=500,width=220,height=220)
-        bb_11=Button(self.root,text="Train Data",cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_11=Button(self.root,text="Exit",cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_11.place(x=1100,y=700,width=220,height=40)
 
     
