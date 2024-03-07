@@ -115,9 +115,9 @@ class Face_Recog:
         img11=Image.open(r"Images\10.jpg")
         img11=img11.resize((220,220))
         self.photoimage11=ImageTk.PhotoImage(img11)
-        b_11=Button(self.root,image=self.photoimage11,cursor='hand2')
+        b_11=Button(self.root,image=self.photoimage11,command=self.exit,cursor='hand2')
         b_11.place(x=1100,y=500,width=220,height=220)
-        bb_11=Button(self.root,text="Exit",cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
+        bb_11=Button(self.root,text="Exit",cursor="hand2",command=self.exit,font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         bb_11.place(x=1100,y=700,width=220,height=40)
 
     
@@ -139,6 +139,9 @@ class Face_Recog:
     
     def open_img(self):
         os.startfile("data")
+    
+    def exit(self):
+        root.destroy()
 
 
 if __name__ == "__main__":
